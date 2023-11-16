@@ -13,7 +13,7 @@ pipeline {
     }
     
     stages {
-        stage('Clone Repository and Build WAR') {
+        stage('Clone Repository and Build JAR') {
             steps {
                 script {
                     git url: GIT_REPO
