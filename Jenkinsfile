@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        maven '3.9.5'
+        Maven '3.9.5'
     }
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('DockerHub_ID') // Update with your Docker Hub credentials ID
